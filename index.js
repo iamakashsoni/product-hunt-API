@@ -3,9 +3,9 @@ const cors = require('cors');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 
-const authRoutes = require('../routes/auth.js');
-const productRoutes = require('../routes/products.js');
-const commentRoutes = require('../routes/comments.js');
+const authRoutes = require('./routes/auth.js');
+const productRoutes = require('./routes/products.js');
+const commentRoutes = require('./routes/comments.js');
 
 dotenv.config();
 
